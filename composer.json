@@ -10,13 +10,48 @@
         }
     ],
     "repositories": {
-        "0": {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        },
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        "dropzonejs": {
+          "type": "package",
+          "package": {
+            "name": "enyo/dropzonejs",
+            "version": "master",
+            "type": "drupal-library",
+            "source": {
+                "url": "git@github.com:enyo/dropzone.git",
+                "type": "git",
+                "reference": "origin/master"
+            }
+          }
+        },
+        "masonry": {
+          "type": "package",
+          "package": {
+            "name": "desandro/masonry",
+            "version": "master",
+            "type": "drupal-library",
+            "source": {
+                "url": "git@github.com:desandro/masonry.git",
+                "type": "git",
+                "reference": "origin/master"
+            }
+          }
+        },
+        "imagesloaded": {
+          "type": "package",
+          "package": {
+            "name": "desandro/imagesloaded",
+            "version": "master",
+            "type": "drupal-library",
+            "source": {
+                "url": "git@github.com:desandro/imagesloaded.git",
+                "type": "git",
+                "reference": "origin/master"
+            }
+          }
         }
     },
     "require": {
@@ -44,9 +79,9 @@
         "drupal/file_browser": "1.x-dev",
         "drupal/media_entity": "1.x-dev",
         "drupal/media_entity_image": "1.x-dev",
-        "desandro/masonry": "^4.1",
-        "desandro/imagesloaded": "^4.1",
-        "enyo/dropzone": "^4.3"
+        "enyo/dropzone": "*",
+        "desandro/masonry": "*",
+        "desandro/imagesloaded": "*"
     },
     "require-dev": {
         "behat/mink": "~1.7",
