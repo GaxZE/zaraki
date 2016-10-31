@@ -82,7 +82,8 @@
         "desandro/masonry": "4.*",
         "desandro/imagesloaded": "4.*",
         "enyo/dropzone": "4.*",
-        "drupal/console": "^0.11.3"
+        "drupal/console": "^0.11.3",
+        "oomphinc/composer-installers-extender": "^1.1"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -120,26 +121,13 @@
     },
     "extra": {
         "installer-paths": {
-            "web/core": [
-                "type:drupal-core"
-            ],
-            "web/libraries/{$name}": [
-                "type:drupal-library"
-            ],
-            "web/modules/contrib/{$name}": [
-                "type:drupal-module"
-            ],
-            "web/profiles/contrib/{$name}": [
-                "type:drupal-profile"
-            ],
-            "web/themes/contrib/{$name}": [
-                "type:drupal-theme"
-            ],
-            "drush/contrib/{$name}": [
-                "type:drupal-drush"
-            ]
+            "web/core": ["type:drupal-core"],
+            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/contrib/{$name}": ["type:drupal-drush"]
         },
-        "patches": {
-        }
+        "patches": {}
     }
 }
