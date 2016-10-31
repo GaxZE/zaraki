@@ -9,51 +9,6 @@
             "role": "Dev"
         }
     ],
-    "repositories": [
-        {
-            "type"    : "package",
-            "package" : {
-                "name"    : "enyo/dropzone",
-                "version" : "dev-master",
-                "type"    : "drupal-library",
-                "source"  : {
-                    "url"       : "https://github.com/enyo/dropzone.git",
-                    "type"      : "git",
-                    "reference" : "origin/master"
-                }
-            }
-        },
-        {
-            "type"    : "package",
-            "package" : {
-                "name"    : "desandro/masonry",
-                "version" : "dev-master",
-                "type"    : "drupal-library",
-                "source"  : {
-                    "url"       : "https://github.com/desandro/masonry.git",
-                    "type"      : "git",
-                    "reference" : "origin/master"
-                }
-            }
-        },
-        {
-            "type"    : "package",
-            "package" : {
-                "name"    : "desandro/imagesloaded",
-                "version" : "dev-master",
-                "type"    : "drupal-library",
-                "source"  : {
-                    "url"       : "https://github.com/desandro/imagesloaded.git",
-                    "type"      : "git",
-                    "reference" : "origin/master"
-                }
-            }
-        },
-        {
-            "type": "composer",
-            "url": "https://packagist.drupal-composer.org"
-        }
-    ],
     "require": {
         "composer/installers": "~1",
         "drupal-composer/drupal-scaffold": "~1",
@@ -79,11 +34,10 @@
         "drupal/bootstrap": "~8",
         "hirak/prestissimo": "^0.2",
         "drupal/smart_trim": "~8",
-        "desandro/masonry": "4.*",
-        "desandro/imagesloaded": "4.*",
-        "enyo/dropzone": "4.*",
         "drupal/console": "^0.11.3",
-        "oomphinc/composer-installers-extender": "^1.1"
+        "oomphinc/composer-installers-extender": "^1.1",
+        "drupal/dropzonejs": "8.1.*@dev",
+        "enyo/dropzone": "4.*"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -119,6 +73,25 @@
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
         ]
     },
+    "repositories" : [
+        {
+            "type"    : "package",
+            "package" : {
+                "name"    : "enyo/dropzone",
+                "version" : "v4.3.0",
+                "type"    : "drupal-library",
+                "source"  : {
+                    "url"       : "https://github.com/enyo/dropzone.git",
+                    "type"      : "git",
+                    "reference" : "origin/master"
+                }
+            }
+        },
+        {
+            "type" : "composer",
+            "url"  : "https://packages.drupal.org/8"
+        }
+    ],
     "extra": {
         "installer-paths": {
             "web/core": ["type:drupal-core"],

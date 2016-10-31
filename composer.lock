@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a684d3fc414030eb73f17b59b6b706ea",
-    "content-hash": "a7a72599397e6fece326aa72c1f32927",
+    "hash": "05523605796c9f4373d8f1b7dd2c74cf",
+    "content-hash": "6ecacc3e4cd64a687ca37c89a12f5457",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -479,84 +479,6 @@
             ],
             "description": "Provides a way to patch Composer packages.",
             "time": "2016-03-28 18:54:21"
-        },
-        {
-            "name": "desandro/imagesloaded",
-            "version": "v4.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/desandro/imagesloaded.git",
-                "reference": "72b5d600a435803ab1dd2c549b8cba2941ab79ba"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/desandro/imagesloaded/zipball/72b5d600a435803ab1dd2c549b8cba2941ab79ba",
-                "reference": "72b5d600a435803ab1dd2c549b8cba2941ab79ba",
-                "shasum": ""
-            },
-            "type": "component",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David DeSandro",
-                    "homepage": "http://desandro.com/",
-                    "role": "developer"
-                }
-            ],
-            "description": "JavaScript is all like _You images done yet or what?_",
-            "homepage": "http://imagesloaded.desandro.com",
-            "keywords": [
-                "dom",
-                "images",
-                "javascript",
-                "jquery-plugin",
-                "library",
-                "loaded",
-                "ui"
-            ],
-            "time": "2016-08-28 14:48:10"
-        },
-        {
-            "name": "desandro/masonry",
-            "version": "v4.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/desandro/masonry.git",
-                "reference": "3de4f58f11837c99f608fd6cfb651305869b7e70"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/desandro/masonry/zipball/3de4f58f11837c99f608fd6cfb651305869b7e70",
-                "reference": "3de4f58f11837c99f608fd6cfb651305869b7e70",
-                "shasum": ""
-            },
-            "type": "component",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David DeSandro",
-                    "homepage": "http://desandro.com/",
-                    "role": "developer"
-                }
-            ],
-            "description": "Cascading grid layout library",
-            "homepage": "http://masonry.desandro.com",
-            "keywords": [
-                "browser",
-                "dom",
-                "grid",
-                "javascript",
-                "layout",
-                "library",
-                "outlayer"
-            ],
-            "time": "2016-08-16 17:29:48"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2364,35 +2286,9 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/enyo/dropzone.git",
-                "reference": "d8ef7a82e6ab5447c1f2d9512c8e1bfd4de5ac9e"
+                "reference": "origin/master"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/enyo/dropzone/zipball/d8ef7a82e6ab5447c1f2d9512c8e1bfd4de5ac9e",
-                "reference": "d8ef7a82e6ab5447c1f2d9512c8e1bfd4de5ac9e",
-                "shasum": ""
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Matias Meno",
-                    "email": "m@tias.me",
-                    "homepage": "http://www.matiasmeno.com"
-                }
-            ],
-            "description": "Handles drag and drop of files for you.",
-            "homepage": "http://www.dropzonejs.com",
-            "keywords": [
-                "drag and drop",
-                "dragndrop",
-                "file upload",
-                "upload"
-            ],
-            "time": "2016-02-14 04:19:41"
+            "type": "drupal-library"
         },
         {
             "name": "gabordemooij/redbean",
@@ -7018,7 +6914,8 @@
         "drupal/entity_browser": 15,
         "drupal/entity_embed": 10,
         "drupal/inline_entity_form": 10,
-        "drupal/file_browser": 15
+        "drupal/file_browser": 15,
+        "drupal/dropzonejs": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
