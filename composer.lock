@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "05523605796c9f4373d8f1b7dd2c74cf",
-    "content-hash": "6ecacc3e4cd64a687ca37c89a12f5457",
+    "hash": "f7ff450a8cf60b6b978845d999e2d148",
+    "content-hash": "0698b35aaf49e96e7661ffb20bf641bf",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1082,68 +1082,6 @@
             "time": "2016-10-28 09:58:26"
         },
         {
-            "name": "drupal/config_installer",
-            "version": "8.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/config_installer.git",
-                "reference": "071213c9a7507bddcd6f6018d3f24217c13bb9d7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/config_installer-8.x-1.3.zip",
-                "reference": "071213c9a7507bddcd6f6018d3f24217c13bb9d7",
-                "shasum": null
-            },
-            "require": {
-                "drupal/core": "8.*"
-            },
-            "type": "drupal-profile",
-            "extra": {
-                "branch-alias": {
-                    "dev-8.x-1.x": "8.1.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.drupal-composer.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "description": "Use configuration from another Drupal site to install a Drupal instance. Suitable for advanced users.",
-            "homepage": "https://www.drupal.org/project/config_installer",
-            "time": "2016-05-05 16:43:19"
-        },
-        {
-            "name": "drupal/config_readonly",
-            "version": "8.1.0-beta2",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/config_readonly.git",
-                "reference": "3c655ad36bef03ab0a98637a77ef5b17730f1d7d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/config_readonly-8.x-1.0-beta2.zip",
-                "reference": "3c655ad36bef03ab0a98637a77ef5b17730f1d7d",
-                "shasum": null
-            },
-            "require": {
-                "drupal/core": "8.*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-8.x-1.x": "8.1.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.drupal-composer.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "description": "Enables making the active configuration store read-only to prevent configuration changes on a Drupal site.",
-            "homepage": "https://www.drupal.org/project/config_readonly",
-            "time": "2016-01-28 00:13:10"
-        },
-        {
             "name": "drupal/config_update",
             "version": "8.1.2",
             "source": {
@@ -2011,57 +1949,6 @@
             "time": "2016-08-11 02:35:09"
         },
         {
-            "name": "drush/config-extra",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drush-ops/config-extra.git",
-                "reference": "a6942ba7642e29279e409cf112f1f8c5f2fe4af0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/config-extra/zipball/a6942ba7642e29279e409cf112f1f8c5f2fe4af0",
-                "reference": "a6942ba7642e29279e409cf112f1f8c5f2fe4af0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": ">=3.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "8.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Drush": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Moshe Weitzman",
-                    "email": "weitzman@tejasa.com"
-                },
-                {
-                    "name": "Greg Anderson",
-                    "email": "greg.1.anderson@greenknowe.org"
-                }
-            ],
-            "description": "Drush config-extra contains additional configuration Drush commands, notably config-merge.",
-            "keywords": [
-                "Drush"
-            ],
-            "time": "2015-10-24 23:12:35"
-        },
-        {
             "name": "drush/drush",
             "version": "8.1.7",
             "source": {
@@ -2330,6 +2217,17 @@
                 "orm"
             ],
             "time": "2016-05-01 10:27:43"
+        },
+        {
+            "name": "gaxze/kenpachi",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gaxze/kenpachi.git",
+                "reference": "origin/master"
+            },
+            "type": "drupal-profile",
+            "time": "2016-10-31 16:26:18"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -5411,6 +5309,55 @@
             "time": "2015-12-17 08:42:14"
         },
         {
+            "name": "wikimedia/composer-merge-plugin",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/composer-merge-plugin.git",
+                "reference": "0bdf8543d445ee067c9ba7d5d4a5dde70b9785f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/composer-merge-plugin/zipball/0bdf8543d445ee067c9ba7d5d4a5dde70b9785f4",
+                "reference": "0bdf8543d445ee067c9ba7d5d4a5dde70b9785f4",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "jakub-onderka/php-parallel-lint": "~0.8",
+                "phpunit/phpunit": "~4.8|~5.0",
+                "squizlabs/php_codesniffer": "~2.1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                },
+                "class": "Wikimedia\\Composer\\MergePlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wikimedia\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bryan Davis",
+                    "email": "bd808@wikimedia.org"
+                }
+            ],
+            "description": "Composer plugin to merge multiple composer.json files",
+            "time": "2016-03-08 17:11:37"
+        },
+        {
             "name": "zendframework/zend-diactoros",
             "version": "1.3.7",
             "source": {
@@ -6915,7 +6862,8 @@
         "drupal/entity_embed": 10,
         "drupal/inline_entity_form": 10,
         "drupal/file_browser": 15,
-        "drupal/dropzonejs": 20
+        "drupal/dropzonejs": 20,
+        "gaxze/kenpachi": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
