@@ -37,7 +37,7 @@
         "drupal/dropzonejs": "8.1.*@dev",
         "enyo/dropzone": "4.*",
         "wikimedia/composer-merge-plugin": "^1.3",
-        "gaxze/kenpachi": "dev-master"
+        "gaxze/izuru": "dev-master"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -90,11 +90,11 @@
         {
             "type"    : "package",
             "package" : {
-                "name"    : "gaxze/kenpachi",
+                "name"    : "gaxze/izuru",
                 "version" : "dev-master",
                 "type"    : "drupal-profile",
                 "source"  : {
-                    "url"       : "https://github.com/gaxze/kenpachi.git",
+                    "url"       : "https://github.com/gaxze/izuru.git",
                     "type"      : "git",
                     "reference" : "origin/master"
                 }
