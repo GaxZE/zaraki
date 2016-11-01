@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f7ff450a8cf60b6b978845d999e2d148",
-    "content-hash": "0698b35aaf49e96e7661ffb20bf641bf",
+    "hash": "4c801489c15c318ba642c89ec6dffc6e",
+    "content-hash": "ef94b9e8333d5aa2deb81d841ec24487",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2219,15 +2219,15 @@
             "time": "2016-05-01 10:27:43"
         },
         {
-            "name": "gaxze/kenpachi",
+            "name": "gaxze/izuru",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/gaxze/kenpachi.git",
+                "url": "https://github.com/gaxze/izuru.git",
                 "reference": "origin/master"
             },
             "type": "drupal-profile",
-            "time": "2016-10-31 16:26:18"
+            "time": "2016-11-01 18:23:20"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -6863,7 +6863,7 @@
         "drupal/inline_entity_form": 10,
         "drupal/file_browser": 15,
         "drupal/dropzonejs": 20,
-        "gaxze/kenpachi": 20
+        "gaxze/izuru": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
