@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a83b109d93fc20e41029ef8a86b4e10d",
-    "content-hash": "23e809945e66b5965c730c6dc5a72aeb",
+    "hash": "833719e7d8d304a353b15e9834f5cd2a",
+    "content-hash": "9fb893c3ddb952cd77f8407cacc284f2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -420,52 +420,25 @@
         },
         {
             "name": "desandro/imagesloaded",
-            "version": "v4.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/desandro/imagesloaded.git",
-                "reference": "origin/master"
+            "version": "3.1.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/desandro/imagesloaded/archive/v3.1.8.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "drupal-library"
         },
         {
             "name": "desandro/masonry",
-            "version": "v4.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/desandro/masonry.git",
-                "reference": "3de4f58f11837c99f608fd6cfb651305869b7e70"
-            },
+            "version": "3.3.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/desandro/masonry/zipball/3de4f58f11837c99f608fd6cfb651305869b7e70",
-                "reference": "3de4f58f11837c99f608fd6cfb651305869b7e70",
-                "shasum": ""
+                "url": "https://github.com/desandro/masonry/archive/v3.3.1.zip",
+                "reference": null,
+                "shasum": null
             },
-            "type": "component",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David DeSandro",
-                    "homepage": "http://desandro.com/",
-                    "role": "developer"
-                }
-            ],
-            "description": "Cascading grid layout library",
-            "homepage": "http://masonry.desandro.com",
-            "keywords": [
-                "browser",
-                "dom",
-                "grid",
-                "javascript",
-                "layout",
-                "library",
-                "outlayer"
-            ],
-            "time": "2016-08-16 17:29:48"
+            "type": "drupal-library"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2071,10 +2044,10 @@
         },
         {
             "name": "enyo/dropzone",
-            "version": "v4.3.0",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/enyo/dropzone.git",
+                "url": "https://github.com/enyo/dropzone",
                 "reference": "origin/master"
             },
             "type": "drupal-library"
