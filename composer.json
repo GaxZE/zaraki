@@ -14,6 +14,9 @@
         "composer/installers": "~1",
         "drupal-composer/drupal-scaffold": "~1",
         "cweagans/composer-patches": "~1.0",
+        "enyo/dropzone": "^4.3",
+        "desandro/masonry": "^4.1",
+        "desandro/imagesloaded": "^4.1",
         "drupal/core": "~8",
         "drush/drush": "~8",
         "drupal/admin_toolbar": "~8",
@@ -32,14 +35,10 @@
         "drupal/bootstrap": "~8",
         "hirak/prestissimo": "^0.2",
         "drupal/smart_trim": "~8",
-        "drupal/console": "^0.11.3",
         "oomphinc/composer-installers-extender": "^1.1",
         "drupal/dropzonejs": "8.1.*@dev",
-        "enyo/dropzone": "4.*",
         "wikimedia/composer-merge-plugin": "^1.3",
-        "gaxze/izuru": "dev-master",
-        "desandro/masonry": "^4.1",
-        "desandro/imagesloaded": "^4.1"
+        "gaxze/izuru": "dev-master"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -79,11 +78,11 @@
         {
             "type"    : "package",
             "package" : {
-                "name"    : "enyo/dropzone",
-                "version" : "v4.3.0",
+                "name"    : "desandro/imagesloaded",
+                "version" : "4.1.1",
                 "type"    : "drupal-library",
                 "source"  : {
-                    "url"       : "https://github.com/enyo/dropzone.git",
+                    "url"       : "https://github.com/desandro/imagesloaded.git",
                     "type"      : "git",
                     "reference" : "origin/master"
                 }
@@ -93,7 +92,7 @@
             "type"    : "package",
             "package" : {
                 "name"    : "desandro/masonry",
-                "version" : "v4.1.1",
+                "version" : "4.1.1",
                 "type"    : "drupal-library",
                 "source"  : {
                     "url"       : "https://github.com/desandro/masonry.git",
@@ -105,11 +104,11 @@
         {
             "type"    : "package",
             "package" : {
-                "name"    : "desandro/imagesloaded",
-                "version" : "v4.1.1",
+                "name"    : "enyo/dropzone",
+                "version" : "4.3.0",
                 "type"    : "drupal-library",
                 "source"  : {
-                    "url"       : "https://github.com/desandro/imagesloaded.git",
+                    "url"       : "https://github.com/enyo/dropzone.git",
                     "type"      : "git",
                     "reference" : "origin/master"
                 }
