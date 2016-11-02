@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "70d290f7d0dd856d647e508fee5c69c4",
-    "content-hash": "25195560cebbdfa864be58fe7b6789e8",
+    "hash": "28e1be9e1eb7de46b0c28641bac374b7",
+    "content-hash": "8dc1da1cc992e956d6714ebf0b476a48",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -485,7 +485,7 @@
             "version": "v4.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/desandro/masonry.git",
+                "url": "https://github.com/desandro/imagesloaded.git",
                 "reference": "origin/master"
             },
             "type": "drupal-library"
@@ -2276,7 +2276,7 @@
                 "reference": "origin/master"
             },
             "type": "drupal-profile",
-            "time": "2016-11-02 13:47:04"
+            "time": "2016-11-02 15:47:44"
         },
         {
             "name": "guzzlehttp/guzzle",
