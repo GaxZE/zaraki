@@ -37,7 +37,9 @@
         "drupal/dropzonejs": "8.1.*@dev",
         "enyo/dropzone": "4.*",
         "wikimedia/composer-merge-plugin": "^1.3",
-        "gaxze/izuru": "dev-master"
+        "gaxze/izuru": "dev-master",
+        "desandro/masonry": "^4.1",
+        "desandro/imagesloaded": "^4.1"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -82,6 +84,32 @@
                 "type"    : "drupal-library",
                 "source"  : {
                     "url"       : "https://github.com/enyo/dropzone.git",
+                    "type"      : "git",
+                    "reference" : "origin/master"
+                }
+            }
+        },
+       {
+            "type"    : "package",
+            "package" : {
+                "name"    : "desandro/imagesloaded",
+                "version" : "v4.1.1",
+                "type"    : "drupal-library",
+                "source"  : {
+                    "url"       : "https://github.com/desandro/masonry.git",
+                    "type"      : "git",
+                    "reference" : "origin/master"
+                }
+            }
+        },
+       {
+            "type"    : "package",
+            "package" : {
+                "name"    : "desandro/imagesloaded",
+                "version" : "v4.1.1",
+                "type"    : "drupal-library",
+                "source"  : {
+                    "url"       : "https://github.com/desandro/imagesloaded.git",
                     "type"      : "git",
                     "reference" : "origin/master"
                 }
