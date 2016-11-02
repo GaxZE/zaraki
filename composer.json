@@ -89,7 +89,7 @@
                 }
             }
         },
-       {
+        {
             "type"    : "package",
             "package" : {
                 "name"    : "desandro/masonry",
@@ -102,7 +102,7 @@
                 }
             }
         },
-       {
+        {
             "type"    : "package",
             "package" : {
                 "name"    : "desandro/imagesloaded",
