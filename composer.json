@@ -107,11 +107,11 @@
         {
             "type": "package",
             "package": {
-                "name": "enyo/dropzone",
-                "version": "4.2.0",
-                "type": "drupal-library",
+                "name": "gaxze/izuru",
+                "version": "master",
+                "type": "drupal-profile",
                 "source": {
-                    "url": "https://github.com/enyo/dropzone",
+                    "url": "https://github.com/gaxze/izuru",
                     "type": "git",
                     "reference": "origin/master"
                 }
